@@ -1,14 +1,14 @@
 import { Text, View, StyleSheet } from 'react-native'
 
-export default class aboutScreen {
-  render() {
+export default function AboutScreen() {
+ 
     return (
       <View style={styles.container}
       >
         <Text>about</Text>
       </View>
     )
-  }
+  
 }
 
 const styles = StyleSheet.create({
